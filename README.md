@@ -11,11 +11,11 @@ npm install ts-react-native-barcode-scanner
 ## Usage
 
 ```js
-import { multiply } from 'ts-react-native-barcode-scanner';
+Install peer dependencies
 
-// ...
-
-const result = await multiply(3, 7);
+react-native-reanimated
+react-native-vision-camera
+vision-camera-code-scanner
 ```
 
 ## Contributing
