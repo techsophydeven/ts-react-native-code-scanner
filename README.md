@@ -10,17 +10,28 @@ npm install ts-react-native-barcode-scanner
 
 ## Usage
 
-```js
+
 Install peer dependencies
 
-react-native-reanimated
-react-native-vision-camera
-vision-camera-code-scanner
+```sh
+yarn add react-native-reanimated react-native-vision-camera vision-camera-code-scanner
 ```
 
-## Contributing
+Configure babel.config.js
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+```js
+...
+plugins: [
+    ...
+    [
+      'react-native-reanimated/plugin',
+      {
+        globals: ['__scanCodes'],
+      },
+    ],
+    ...
+  ],
+...
 
 ## License
 

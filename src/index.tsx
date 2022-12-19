@@ -1,11 +1,7 @@
 import React from 'react';
-import {Text, View, ViewStyle} from 'react-native';
+import {ViewStyle} from 'react-native';
 import {runOnJS} from 'react-native-reanimated';
-import {
-  Camera,
-  CameraDevice,
-  useCameraDevices,
-} from 'react-native-vision-camera';
+import {Camera, CameraDevice} from 'react-native-vision-camera';
 import {
   Barcode,
   BarcodeFormat,
