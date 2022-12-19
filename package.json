@@ -1,6 +1,6 @@
 {
     "name": "ts-react-native-barcode-scanner",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "test",
     "main": "lib/commonjs/index",
     "module": "lib/module/index",
@@ -79,8 +79,8 @@
         "@types/react-dom": "17.0.2"
     },
     "peerDependencies": {
-        "react": "18.0.0",
-        "react-native": "0.70.0",
+        "react": "*",
+        "react-native": "*",
         "react-native-vision-camera": "^2.15.2",
         "vision-camera-code-scanner": "^0.2.0"
     },
